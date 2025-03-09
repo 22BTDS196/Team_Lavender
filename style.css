@@ -36,7 +36,7 @@ html, body {
 	background: url(https://assets.architecturaldigest.in/photos/62e8fdde6b9540618ef0a493/master/w_1600%2Cc_limit/06.jpg) fixed;
 }
 .section-2 {
-	background: url(https://superrlife.com/wp-content/uploads/2021/10/TT11.jpg) fixed;
+	background: url(https://i0.wp.com/www.designlike.com/wp-content/uploads/2018/03/restaurant-1948732_1920.jpg) fixed;
 }
 .section-3 {
 	background: url(https://cdn.venuemonk.com/assets/bangalore/xoox-brewmill-koramangala/images/full/xoox-brewmill-koramangala-4mzgr.jpg) fixed;
@@ -119,10 +119,11 @@ html, body {
 
 
 	/* Section 2 */
+	
 
 	.section-2 .obj-1 {
 		margin: 200px 0 0 300px;
-		width: 160px;
+		width: 130px;
 		height: 200px;
 		line-height: 50px;
 		background-image: url(obj2-1.jpg);

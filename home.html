@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -56,13 +56,14 @@
 
 		<!-- All objects for this section -->
 		<div class="obj-wrapper">
-			<div class="obj obj-1" data-layer="true" data-speed="5"><img src="https://th.bing.com/th/id/OIP.6DPc7LeDbIXFZUgaFHy1ZAAAAA?rs=1&pid=ImgDetMain">
+			<div class="obj obj-1" data-layer="true" data-speed="5"style="position:absolute;right:-1345px;"><img src="https://th.bing.com/th/id/OIP.6DPc7LeDbIXFZUgaFHy1ZAAAAA?rs=1&pid=ImgDetMain">
 				
 			</div>
-			<div class="obj obj-2" data-layer="true" data-speed="6"><img src="https://media.architecturaldigest.in/wp-content/uploads/2019/03/Toit-Pune-brewpub-1.jpg">
-				<span class="text-overlay" style="position: absolute;top:5ch;left: -20px;color:rgba(216, 241, 223, 0.781); font-family: Georgia, 'Times New Roman', Times, serif;">FABANTS</span></div>
-			<div class="obj obj-3" data-layer="true" data-speed="8"><img src="https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/z/y/p5065-15637836875d357207907b7.jpg?tr=tr:n-large"></div>
-			<div class="obj obj-4" data-layer="true" data-speed="normal"><img src="https://cdn-star2-com.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2018/06/str2_abimtr_abirami_15.jpg"></div>	
+			<div class="obj obj-2" data-layer="true" data-speed="6"style="position:absolute;right:-1180px;"><img src="https://media.architecturaldigest.in/wp-content/uploads/2019/03/Toit-Pune-brewpub-1.jpg">
+				<span class="text-overlay" id="fabants-text" style="position:absolute;bottom:50%;left:240px;color:rgba(216, 241, 223, 0.781); font-family: Georgia, 'Times New Roman', Times, serif;">FABANTS</span></div>	
+			<div class="obj obj-3" data-layer="true" data-speed="8"style="position:absolute;right:-1020px;"><img src="https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/z/y/p5065-15637836875d357207907b7.jpg?tr=tr:n-large"></div>
+			<div class="obj obj-4" data-layer="true" data-speed="normal"><img src="https://wallpaperaccess.com/full/3692914.jpg"></div>
+			
 		</div>
 		
 	</div>
@@ -93,8 +94,12 @@
 	</div>
 	</a>
 
-
-
+<script>
+	// Hide FABANTS text when on FABE.html or fabtels.html
+	if (window.location.href.includes("FABE.html") || window.location.href.includes("fabtels.html")) {
+		document.getElementById("fabants-text").style.display = "none";
+	}
+</script>
 
 	<!-- Script includes -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
